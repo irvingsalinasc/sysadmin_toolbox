@@ -7,6 +7,7 @@ Este repositorio es mi centro de control para la gestión de infraestructura. Co
 ## 📁 Contenido del Repositorio
 
 ### 🛡️ Redes
+* `/redes/`: Scripts de revisión de red y troubleshooting
 * `/fortinet/backups/`: Scripts para la extracción automática de archivos de configuración (`.conf`) vía SSH/SCP.
 * `/fortinet/templates/`: Plantillas de políticas comunes y objetos de red.
 
