@@ -12,7 +12,7 @@ Información: https://irvingsalinas.jimdofree.com/
 
 Propósito: Diagnóstico automatizado de conectividad para usuarios remotos y locales, con recolección de métricas de rendimiento y auditoría de identidad.
 
-
+Nota: Es importante añadir tus IPs en la verificación de los servicios empresariales, tales como VPNs, gateway, DNS, etc.
 
 1\. Componentes del Kit
 
@@ -73,4 +73,5 @@ Asegúrate de que el usuario tenga permisos de escritura en C:\\. El lanzador .b
 -¿Los pings a Servicios Empresariales fallan? 
 
 Si el Ping a Google es exitoso, el problema reside exclusivamente en la conexión VPN o en el Gateway de la oficina remota.
+
 
