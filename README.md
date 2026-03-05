@@ -28,5 +28,17 @@ Este repositorio es mi centro de control para la gestión de infraestructura. Co
 # Ejemplo de comando para backup manual vía TFTP
 execute backup config tftp backup-archivo.conf 192.168.1.100
 
-## 🚀 Acceso a mi Website
+---
+
+### 🌐 Conectividad Profesional
+
+Para consultas sobre implementaciones de infraestructura o colaboraciones técnicas:
+
+| Recurso | Enlace Directo |
+| :--- | :--- |
+| **📍 Website Personal** | [irvingsalinas.jimdofree.com](https://irvingsalinas.jimdofree.com/proyectos/) |
+| **💼 LinkedIn** | [Irving Salinas - Infrastructure & SysAdmin](https://www.linkedin.com/in/tu-usuario-aqui/) |
+| **✉️ Contacto** | [Enviar Mensaje Directo](https://irvingsalinas.jimdofree.com/contacto/) |
+
+> **Nota:** Todos los scripts en este repositorio están diseñados para entornos controlados. Se recomienda probar en ambientes de Staging antes de producción.
 
