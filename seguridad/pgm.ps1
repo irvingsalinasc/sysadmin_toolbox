@@ -1,3 +1,28 @@
+<#
+.SYNOPSIS
+    PGM - Password Generator Manager v1.0.
+    
+.DESCRIPTION
+    Herramienta avanzada de generación de contraseñas de alta entropía. 
+    Diseñada para administradores de sistemas que requieren credenciales 
+    robustas para entornos de infraestructura crítica y bases de datos.
+
+.PARAMETER Length
+    Define la longitud de la contraseña (por defecto es 16 caracteres).
+
+.EXAMPLE
+    .\pgm.ps1 -Length 24
+    Genera una contraseña de 24 caracteres con complejidad técnica.
+
+.NOTES
+    Autor: Irving Salinas
+    Website: https://irvingsalinas.jimdofree.com/
+    GitHub: https://github.com/irvingsalinasc/sysadmin_toolbox
+    Fecha: 2025
+    Versión: 1.0
+    Licencia: MIT
+#>
+
 # --- Inicio del Banner ---
 $banner = @"
 =====================================================================
