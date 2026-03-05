@@ -4,6 +4,9 @@ Herramientas para administración de infraestructuras de sistemas
 
 Este repositorio es mi centro de control para la gestión de infraestructura. Contiene scripts de automatización para redes, virtualización y auditoría de sistemas.
 
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-00ff41?style=for-the-badge)
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1%20%7C%207+-00ff41?style=for-the-badge&logo=powershell&logoColor=black)
+
 ## 📁 Contenido del Repositorio
 
 ### 🛡️ Redes
@@ -18,6 +21,7 @@ Este repositorio es mi centro de control para la gestión de infraestructura. Co
 ### 🔍 Auditoría e Infraestructura
 * `/infra/health-check.sh`: Revisión general de estado de servidores (uptime, carga, logs críticos).
 * `/infra/inventory/`: Scripts para generar reportes de inventario de hardware y SO.
+
 
 ### 🌐 Conectividad Profesional
 
