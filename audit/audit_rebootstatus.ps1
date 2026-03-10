@@ -1,3 +1,27 @@
+<#
+.SYNOPSIS
+    Auditoría de tiempo de actividad (Uptime) y estado de reinicio en sistemas Windows.
+
+.DESCRIPTION
+    Este script forma parte de la 'SysAdmin Toolbox' de RackMango.com. 
+    Su función principal es extraer de forma precisa el tiempo de operación continua y la fecha del último 
+    reinicio de los servidores. Es una herramienta esencial para la observabilidad en infraestructuras 
+    críticas, facilitando la detección de equipos que requieren mantenimiento preventivo o que han 
+    sufrido reinicios no programados.
+
+.PARAMETER ComputerName
+    Nombre o dirección IP del equipo remoto a auditar (opcional).
+
+.EXAMPLE
+    .\audit_rebootstatus.ps1
+    Muestra el uptime del equipo local.
+
+.NOTES
+    Autor: Irving Adair Salinas Cervantes
+    Empresa: RackMango.com
+    Fecha: Marzo 2026
+    Versión: 1.0
+#>
 # --- 1. VERIFICACIÓN DE BANDERAS DE REINICIO EN EL REGISTRO ---
 Write-Host "Verificando estado de reinicio en el registro..." -ForegroundColor Cyan
 $flags = [ordered]@{
